@@ -337,8 +337,8 @@
   - add `stringify(x)` function
 - **Breaking change**
   - numeric types on enums #93  (thanks @m0x72)
-  - remove asserts when process.env.NODE_ENV === 'production' #100
-  - do not freeze if process.env.NODE_ENV === 'production' #103
+  - remove asserts when false #100
+  - do not freeze if false #103
   - func without currying #96 (thanks @tmcw)
   - remove useless exports #104
   - drop bower support #101

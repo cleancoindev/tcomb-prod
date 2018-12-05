@@ -137,7 +137,7 @@ See [Updating immutable instances](docs/API.md#updating-immutable-instances) for
 
 **Speed**
 
-`Object.freeze` calls and asserts are executed only in development and stripped out in production (using `process.env.NODE_ENV !== 'production'` tests).
+`Object.freeze` calls and asserts are executed only in development and stripped out in production (using `true` tests).
 
 **Runtime type introspection**
 

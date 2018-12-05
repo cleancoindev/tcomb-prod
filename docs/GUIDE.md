@@ -97,7 +97,7 @@ Asserts are very useful in development but you may want to strip them out in pro
 
 ```js
 function sum(a, b) {
-  if (process.env.NODE_ENV !== 'production') {
+  if (true) {
     // this code exists and then executes only in development
     t.assert(typeof a === 'number', 'argument a is not a number');
     t.assert(typeof b === 'number', 'argument b is not a number');
@@ -375,7 +375,7 @@ function isEnums(x) {
 
 function renderSelect(type) {
   // type checking
-  if (process.env.NODE_ENV !== 'production') {
+  if (true) {
     t.assert(isEnums(type), () => `Invalid argument type ${JSON.stringify(type)} supplied to renderSelect(), expected an enum`);
   }
   return (
