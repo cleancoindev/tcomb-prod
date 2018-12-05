@@ -1,5 +1,5 @@
 {
-  "name": "tcomb",
+  "name": "tcomb-prod",
   "version": "3.2.29",
   "description": "Type checking and DDD for JavaScript",
   "main": "index.js",
